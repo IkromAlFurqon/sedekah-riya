@@ -253,13 +253,13 @@ p, a {font-size: 1.25vw; font-weight: 500; color: white; text-align: justify;}
         margin-top: -2vw;
     }
     .qris {
-        font-size: 1.75vw;
+        font-size: 4vw;
         color: rgb(60, 60, 60);
     }
     .qris:hover {
         font-size: 1.75vw;
         color: skyblue;
     }
-    .qris-image {width: 25vw;}
+    .qris-image {width: 75vw;}
     .modal-body {display: flex;justify-content: center;}
 }
