@@ -273,3 +273,73 @@ p, a, ol {font-size: 1.25vw; font-weight: 500; color: white; text-align: justify
     height: 350px; /* Adjust the height as needed */
     object-fit: cover;
 }
+
+@media (max-width: 1200px) {
+    .carousel-item img {
+        height: 250px; /* Adjust the height as needed */
+    }
+}
+
+@media (max-width: 992px) {
+    .carousel-item img {
+        height: 225px; /* Adjust the height as needed */
+    }
+}
+
+#DescriptionSR24 {
+    order: 1
+}
+
+#CarouselSR24 {
+    order: 2
+}
+
+@media (max-width: 768px) {
+    .carousel-item img {
+        height: 200px; /* Adjust the height as needed */
+    }
+
+    #DescriptionSR24 {
+        order: 2
+    }
+    
+    #CarouselSR24 {
+        order: 1
+    }
+}
+
+@media (max-width: 576px) {
+    .carousel-item img {
+        height: 150px; /* Adjust the height as needed */
+    }
+}
+
+.profile {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.profile img {
+    transition: filter 0.3s ease;
+}
+
+.profile:hover img {
+    filter: blur(1px);
+}
+
+.profile .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    font-size: 30px;
+    color: white;
+    padding: 10px;
+}
+
+.profile:hover .overlay {
+    opacity: 1;
+}
