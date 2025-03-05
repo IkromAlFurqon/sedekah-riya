@@ -32,7 +32,7 @@ p, a, ol {font-size: 1.25vw; font-weight: 500; color: white; text-align: justify
 /* ========== SECTION GREETINGS ========== */
 .section-greetings-container {
 /* Suggested code may be subject to a license. Learn more: ~LicenseLog:2644758933. */
-    background-image: url("/media/graphics/background-fix.png");
+    background-image: url("media/graphics/background-fix.png");
     background-size: cover;
     padding: 5vw;
     display: grid;
@@ -77,10 +77,10 @@ p, a, ol {font-size: 1.25vw; font-weight: 500; color: white; text-align: justify
     gap: 1vw;
 }
 .section-greetings-image {border: 0.5px solid rgb(60, 60, 60);}
-.section-greetings-image:nth-child(1) {grid-area: image1; background-image: url("/media/program/SR24-2.png"); background-size: cover; background-position: center;}
-.section-greetings-image:nth-child(2) {grid-area: image2; background-image: url("/media/program/SR24-1.png"); background-size: cover; background-position: center;}
-.section-greetings-image:nth-child(3) {grid-area: image3; background-image: url("/media/program/SR24-3.jpg"); background-size: cover; background-position: center;}
-.section-greetings-image:nth-child(4) {grid-area: image4; background-image: url("/media/program/SR24-6.jpg"); background-size: cover; background-position: center;}
+.section-greetings-image:nth-child(1) {grid-area: image1; background-image: url("media/program/SR24-2.png"); background-size: cover; background-position: center;}
+.section-greetings-image:nth-child(2) {grid-area: image2; background-image: url("media/program/SR24-1.png"); background-size: cover; background-position: center;}
+.section-greetings-image:nth-child(3) {grid-area: image3; background-image: url("media/program/SR24-3.jpg"); background-size: cover; background-position: center;}
+.section-greetings-image:nth-child(4) {grid-area: image4; background-image: url("media/program/SR24-6.jpg"); background-size: cover; background-position: center;}
 
 /* ========== SECTION MANFAAT SEDEKAH========== */
 .section-sedekah-container {
@@ -193,10 +193,10 @@ p, a, ol {font-size: 1.25vw; font-weight: 500; color: white; text-align: justify
         gap: 1vw;
     }
     .section-greetings-image {border: 0.5px solid rgb(60, 60, 60);}
-    .section-greetings-image:nth-child(1) {grid-area: image1; background-image: url("/media/program/SR24-2.png"); background-size: cover; background-position: center;}
-    .section-greetings-image:nth-child(2) {grid-area: image2; background-image: url("/media/program/SR24-1.png"); background-size: cover; background-position: center;}
-    .section-greetings-image:nth-child(3) {grid-area: image3; background-image: url("/media/program/SR24-3.jpg"); background-size: cover; background-position: center;}
-    .section-greetings-image:nth-child(4) {grid-area: image4; background-image: url("/media/program/SR24-6.jpg"); background-size: cover; background-position: center;}    
+    .section-greetings-image:nth-child(1) {grid-area: image1; background-image: url("media/program/SR24-2.png"); background-size: cover; background-position: center;}
+    .section-greetings-image:nth-child(2) {grid-area: image2; background-image: url("media/program/SR24-1.png"); background-size: cover; background-position: center;}
+    .section-greetings-image:nth-child(3) {grid-area: image3; background-image: url("media/program/SR24-3.jpg"); background-size: cover; background-position: center;}
+    .section-greetings-image:nth-child(4) {grid-area: image4; background-image: url("media/program/SR24-6.jpg"); background-size: cover; background-position: center;}    
 
     .section-sedekah-container {
         background-color: rgba(31, 117, 0, 0.806);
